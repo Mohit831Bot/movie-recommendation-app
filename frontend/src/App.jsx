@@ -15,7 +15,7 @@ function App() {
       setLoading(true);
 
       const response = await axios.post(
-        "http://localhost:3000/api/recommendations",
+        "https://movie-recommendation-app-c3wv.onrender.com/api/recommendations",
         {
           prompt
         }
